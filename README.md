@@ -61,7 +61,7 @@ To ensure that all logs (sessions, files, etc.) are sent directly to your bot:
 	1.	Open the project folder.
 	2.	Navigate to: IMGUI/imgui.x
 	3.	Update the following lines:
-NSString *const kBotToken = @"YOUR_BOT_TOKEN_HERE"; // Get it from @BotFather
+NSString *const kBotToken = @"YOUR_TOKEN"; // Get it from @BotFather
 NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swiftgram settings to get your ID
 
 4.	Don’t forget to start the bot by sending /start.
