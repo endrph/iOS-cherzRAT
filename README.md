@@ -63,6 +63,7 @@ To ensure that all logs (sessions, files, etc.) are sent directly to your bot:
 	3.	Update the following lines:
 NSString *const kBotToken = @"YOUR_BOT_TOKEN_HERE"; // Get it from @BotFather
 NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swiftgram settings to get your ID
+
 4.	Don’t forget to start the bot by sending /start.
 
 ⸻
