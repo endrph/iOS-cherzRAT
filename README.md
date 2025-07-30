@@ -86,5 +86,3 @@ NSString *const kChatID = @"YOUR_CHAT_ID_HERE";     // Use @getmyid_bot or Swift
 
 ⚠️ This tool is intended for educational and research purposes only. Use responsibly and within legal boundaries.
 
-🛠️ Telegram channel https://t.me/SkameykaKit
-
